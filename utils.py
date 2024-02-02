@@ -27,3 +27,17 @@ def NSD(a, b):
         a, b = b, (a % b)
 
     return a
+
+def pyatirka(n):
+    if n%5!=0:
+        return False
+    while n%5==0:
+        n=n/5
+    if n%5!=0 and n!=1:
+        return False
+    else:
+        return True
+
+
+
+
